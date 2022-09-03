@@ -1,3 +1,3 @@
-n = int(input())
-area=3.14*n*n
-print('{:.2f}'.format(area))
+n= int(input())
+a = 3.14*n*n
+print("{0:.2f}".format(a))
