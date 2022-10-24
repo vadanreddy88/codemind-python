@@ -1,10 +1,3 @@
-def digits(n):
-    if n==0:
-        return 0
-    if n%9==0:
-        return 9
-    else:
-        return n%9
-
 n=int(input())
-print(digits(n))
+s=sum(int(i) for i in str(n))
+print(s%9 if s%9 else 9)
